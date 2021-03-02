@@ -52,3 +52,20 @@ JS
             this.roundGain += this.bet[suit] * 2;
             };
         };
+
+## Education
+
+2010-2013 - **Master, Mechancal Engineering**; Samara State Aerospace University
+
+
+2008-2011 - **Specialist, Organisation Menegment**; Samara State Aerospace University
+
+
+2004-2009 - **Specialist, Mechancal Engineering**; Samara State Aerospace University
+
+<br/>
+
+## English level
+
+EPAM estimated level B2.<br/>
+Worked with the USA and Scotland сolleagues on international project.
