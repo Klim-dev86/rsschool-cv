@@ -24,6 +24,17 @@ Mechanical engineer in field of railway diagnostic machinery. Develop apps for c
 
 <br/>
 
+## Related experience
+
+* Telegramm weather bot <br/>
+https://github.com/Klim-dev86/Python_telegramm_bot_1.git
+
+* Client app for docs search <br/>
+https://github.com/Klim-dev86/Client-app-for-docs-search.git
+
+* Rolling stock clearing diagramm calculation app <br/>
+https://github.com/Klim-dev86/Rolling_stock_clearing_diagramm.git
+
 ## Code exemples
 
 Python
