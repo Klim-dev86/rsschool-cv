@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <title>CV</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>Denis Klimenko</h1>
+    <p>Samara, Russia</p>
+    <img class="avatar" src="me.jpg" alt="My photo">
+  </header>
+  <section>
+    <h2>About me</h2>
+    <p>Mechanical engineer in field of railway diagnostic machinery.
+      Develop apps for current work. My goal is position of software engineer.
+      I like coding - coding is fun.</p>
+  </section>
+  <main>
+    <section>
+      <h2>Skill highlights</h2>
+      <ul>
+        <li>Python</li>
+        <li>HTML/CSS/JS</li>
+        <li>Node.js</li>
+        <li>OOP (Grasp, Solid)</li>
+        <li>Functional programming</li>
+        <li>C</li>
+        <li>Git</li>
+        <li>GUI</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Related experience</h2>
+      <h4>Telegramm weather bot</h4>
+      <a href="https://github.com/Klim-dev86/Python_telegramm_bot_1.git">
+        https://github.com/Klim-dev86/Python_telegramm_bot_1.git</a>
+      <h4>Client app for docs search</h4>
+      <a href="https://github.com/Klim-dev86/Client-app-for-docs-search.git">
+        https://github.com/Klim-dev86/Client-app-for-docs-search.git</a>
+    
+      <h4>Rolling stock clearing diagramm calculation app</h4>
+      <a href="https://github.com/Klim-dev86/Rolling_stock_clearing_diagramm.git">
+        https://github.com/Klim-dev86/Rolling_stock_clearing_diagramm.git</a>
+
+    
+    </section>
+    <section>
+      <h2>Code examples</h2>
+      <h4>Python</h4>
+      <code>
+        def find_files():<br/>
+        &nbsp; data = []<br/>
+        &nbsp; for roots, dirs, files in os.walk(f"{server_address}"):<br/>
+        &nbsp; &nbsp; for file in files:<br/>
+        &nbsp; &nbsp; data.append((os.path.join(roots, file), file))<br/>
+        &nbsp; print('done')<br/>
+        &nbsp; return data<br/>
+      </code>
+      <h4>JS</h4>
+      <code>
+        rollDice () {<br/>
+          &nbsp; this.roundGain = 0<br/>
+          &nbsp; for (let i = 0; i &lt; 3; i++) {<br/>
+            &nbsp; &nbsp; let vinSuit = this.diceSuits[Math.floor(Math.random()*this.diceSuits.length)];<br/>
+            &nbsp; &nbsp; this.diceState[vinSuit] = true;<br/>
+            &nbsp; };<br/>
+            &nbsp; for (let suit in this.diceState) {<br/>
+              &nbsp; &nbsp; console.log(this.diceState[suit]);<br/>
+              &nbsp; &nbsp; console.log(this.bet[suit]);<br/>
+              &nbsp; &nbsp; if (this.diceState[suit] == true) {<br/>
+              &nbsp; &nbsp; &nbsp; this.funds += this.bet[suit] * 2;<br/>
+              &nbsp; &nbsp; &nbsp; this.roundGain += this.bet[suit] * 2;<br/>
+              &nbsp;; &nbsp; };<br/>
+            &nbsp; };<br/>
+        };<br/>
+      </code>
+    </section>
+    <section>
+      <h2>Education</h2>
+      <h4>2010-2013 - Master, Mechancal Engineering; Samara State Aerospace University</h4>
+      <h4>2008-2011 - Specialist, Organisation Menegment; Samara State Aerospace University</h4>
+      <h4>2004-2009 - Specialist, Mechancal Engineering; Samara State Aerospace University</h4>
+    </section>
+    <section>
+      <h2>English level</h2>
+      <p>EPAM estimated level B2.</p>
+      <p>Worked with the USA and Scotland сolleagues on international project.</p>
+    </section>
+  </main>
+  <footer>
+    <h4>Contacts</h4>
+    <ul>
+      <li>+7 (904) 749-70-22</li>
+      <li>jaschik26@yandex.ru</li>
+      <li><a href="https://github.com/Klim-dev86">https://github.com/Klim-dev86</a></li>
+    </ul>
+    <a href="https://rs.school/js/"><img class="rs-logo" src="https://rs.school/images/rs_school_js.svg" alt="RS School logo"></a>
+    
+  </footer>
+  
+</body>
+
+</html>

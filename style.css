@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(160, 160, 160);
+  font-family: Arial, Helvetica, sans-serif;
+  width: 1440px;
+  margin: auto;
+  padding: 15px;
+}
+
+ .avatar {
+   width: 300px;
+ }
+ 
+ .rs-logo {
+  width: 200px;
+ }
+
+ a {
+   text-decoration: none;
+ }
+ a:hover {
+  text-decoration: underline;
+ }
